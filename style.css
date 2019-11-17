@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(39, 233, 14);
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+.container {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  right: 10%;
+  width: 80%;
+  line-height: .5;
+}
+
+.quote {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.1;
+  position: relative;
+  margin: 0;
+  padding: 10px;
+}
+
+.quote:before {
+  content: "“";
+  margin-right: .1em;
+}
+
+.quote:after {
+  content: "”";
+  margin-left: .1em;
+}
+
+.author {
+  font-size: 1.25rem;;
+  letter-spacing: 0.05em;
+  line-height: 1.1;
+  margin-right: 4em;
+  font-weight: 400;
+  padding: 10px;
+  font-style: italic;
+  float: right;
+}
+
+.author:before {
+  content: "—";
+}
+
+@media (max-width: 420px) {
+  .quote {
+    font-size: 1.6rem;
+  }
+  .quote:before, .quote:after {
+    font-size: 2.5rem;
+  }
+  .author {
+    font-size: 1rem;
+    font-weight: 100;
+  }
+}
