@@ -4,5 +4,4 @@ The quote and the name of the author, then get displayed on the index.html page 
 The quote and the background color change every 15 seconds, which was set by the SetInterval function in app.js .
 
 
-API Location
-[API](https://github.com/lukePeavey/quotable)
+[API Location including Documentation](https://github.com/lukePeavey/quotable)
