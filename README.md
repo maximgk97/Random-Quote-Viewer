@@ -4,5 +4,5 @@ The quote and the name of the author get retrieved from the JSON object of the A
 The quote and the background color change every 15 seconds, which was set by the SetInterval function in app.js .
 
 
-[API Location including Documentation](https://github.com/lukePeavey/quotable)
+[API Location including Documentation](https://github.com/lukePeavey/quotable)<br>
 [Live Demo](https://maximgk97.github.io/Random-Quote-Viewer/)
